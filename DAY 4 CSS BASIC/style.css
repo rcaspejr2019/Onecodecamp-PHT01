@@ -1,0 +1,68 @@
+/*This is how to style in css*/
+
+
+/* Element Selector*/
+
+p {
+    color: red;
+
+}
+p {
+    color: brown;
+}
+
+*{
+    color: blue;
+   
+}
+.class-example {
+
+    color: fuchsia;
+
+}
+
+/* ID Selector*/
+
+#id-example {
+    color: tomato;
+
+}
+
+/* Attribute Selector*/
+
+/* Targetting achor tag with specific href value*/
+
+a[href]{
+
+    color: green;
+}
+
+a[href="https://www.google.com"]{
+
+        color: pink;
+}
+
+/* Grouping Selector*/
+
+h1,h2,h3 {
+    color: lightblue;
+    background-color: cadetblue;
+    font-size: 20px;
+
+}
+
+.heading1,#heading2,h3 {
+    background-color:#8cc3df ;
+    color: aquamarine;
+
+
+}
+
+/* Pseudo-Class Selector*/
+
+.heading1:hover {
+    background-color: aqua;
+    color: rgb(239, 12, 50);
+
+}
+

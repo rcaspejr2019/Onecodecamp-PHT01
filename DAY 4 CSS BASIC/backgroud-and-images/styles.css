@@ -1,0 +1,30 @@
+.color-example {
+    color: red;
+    background-color: aqua;
+
+}
+.background-example {
+    background-color: #ffaa00;
+    color: rgb(171, 0, 202);
+}
+.background-position-example {
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.opacity-example {
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+
+.img-name {
+    height: 200px;
+    width: 200px;   
+
+}
